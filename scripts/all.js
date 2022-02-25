@@ -418,11 +418,11 @@ define("scripts/main.js", function(exports){
 	
 	    [ timeline, sence, control ].invoke( "init" );
 	
-	    log( "好" );
-	    log( "想" );
-		log( "下" );
-	    log( "班" );
-	    log( "阿" );
+	    log( "那年" );
+	    log( "我們的退休夢" );
+		log( "今年" );
+	    log( "我們齊聚一堂" );
+	    log( "仁愛公園" );
 		log( "..." );
 	    log.clear();
 	
@@ -1154,12 +1154,13 @@ define("scripts/factory/fruit.js", function(exports){
 	
 	var infos = {
 		// type: [ imageSrc, width, height, radius, fixAngle, isReverse, juiceColor ]
-		boom: [ "images/johnson/A.jpg", 66, 68, 26, 0, 0, null ],
-		peach: [ "images/johnson/B.jpg", 62, 59, 37, -50, 0, "#e6c731" ],
-		sandia: [ "images/johnson/B.jpg", 98, 85, 38, -100, 0, "#c00" ],
-		apple: [ "images/johnson/B.jpg", 66, 66, 31, -54, 0, "#c8e925" ],
-		banana: [ "images/johnson/B.jpg", 126, 50, 43, 90, 0, null ],
-		basaha: [ "images/johnson/B.jpg", 68, 72, 32, -135, 0, "#c00" ]
+		boom: [ "images/stock/boom.jpg", 66, 68, 26, 0, 0, null ],
+		peach: [ "images/stock/b.jpg", 62, 59, 37, -50, 0, "#e6c731" ],
+		sandia: [ "images/stock/c.jpg", 98, 85, 38, -100, 0, "#c00" ],
+		apple: [ "images/stock/d.jpg", 66, 66, 31, -54, 0, "#c8e925" ],
+		banana: [ "images/stock/e.jpg", 126, 50, 43, 90, 0, null ],
+		basaha: [ "images/stock/f.jpg", 68, 72, 32, -135, 0, "#c00" ],
+		
 	};
 	
 	// TODO: 是否水果全开？
@@ -3901,7 +3902,7 @@ define("scripts/object/background.js", function(exports){
 	var random = Ucren.randomNumber;
 	
 	exports.set = function(){
-		image = layer.createImage( "default", "images/johnson/bac.jpg", 0, 0, 640, 480 );
+		image = layer.createImage( "default", "images/stock/bac.jpg", 0, 0, 640, 480 );
 	};
 	
 	exports.wobble = function(){
