@@ -1157,11 +1157,11 @@ define("scripts/factory/fruit.js", function(exports){
 		boom: [ "images/stock/boom.jpg", 60, 120, 26, 0, 0, null ],
 		peach: [ "images/stock/b.jpg", 100, 80, 37, -50, 0, "#e6c731" ],
 		sandia: [ "images/stock/c.jpg", 100, 100, 38, -100, 0, "#c00" ],
-		apple: [ "images/stock/d.jpg", 200, 100, 31, -54, 0, "#c8e925" ],
-		banana: [ "images/stock/e.jpg", 200, 100, 43, 90, 0, null ],
-		basaha: [ "images/stock/f.jpg", 200, 100, 32, -135, 0, "#c00" ],
-		a1: [ "images/stock/g.jpg", 200, 100, 32, -135, 0, "#c00" ],
-		b1: [ "images/stock/h.jpg", 200, 100, 32, -135, 0, "#c00" ],
+		apple: [ "images/stock/d.jpg", 120, 60, 31, -54, 0, "#c8e925" ],
+		banana: [ "images/stock/e.jpg", 120, 60, 43, 90, 0, null ],
+		basaha: [ "images/stock/f.jpg", 120, 60, 32, -135, 0, "#c00" ],
+		a1: [ "images/stock/g.jpg", 120, 60, 32, -135, 0, "#c00" ],
+		b1: [ "images/stock/h.jpg", 120, 60, 32, -135, 0, "#c00" ],
 	};
 	
 	// TODO: 是否水果全开？
